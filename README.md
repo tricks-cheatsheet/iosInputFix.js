@@ -46,3 +46,4 @@ export default function (target = document) {
 
 如果不监听 focusin 事件，先点击 select，然后两个 input 框切换，就会有问题
 
+focusin/focusout 和 focus/blur 的区别是，前者支持冒泡，所以可以用事件委托
